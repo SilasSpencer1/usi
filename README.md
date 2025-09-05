@@ -25,9 +25,6 @@ them.
 First, make sure you are using the correct Golang version since the formatter differs
 across version. You can see the current version at the top of the `go.mod` file.
 
-```
-go fmt code.cargurus.com/platform/glados/...
-```
 
 ### Generating Go code
 
