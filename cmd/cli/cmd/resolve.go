@@ -27,7 +27,7 @@ func CmdResolve(cmd *cli.Cmd) {
 	m5Dir := opts.DirOpt()
 	selector := opts.SelectorOpt()
 	filename := opts.FilenameOpt()
-	omitDotEnvFile := cmd.BoolOpt("o omitfile", false, "omit "+mach5.ConfigFilename+" file")
+	omitDotEnvFile := cmd.BoolOpt("o omitfile", false, "omit "+usi.ConfigFilename+" file")
 	props := opts.PropsOpt()
 	shellEscape := opts.ShellEscapeOpt()
 	target := opts.TargetOpt(command)
