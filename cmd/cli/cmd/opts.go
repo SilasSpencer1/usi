@@ -319,7 +319,7 @@ func (o *Opts) validateRegion(command string) {
 }
 
 func (o *Opts) FilenameOpt() *string {
-	o.Filename = o.cmd.StringOpt("f filename", mach5.ConfigFilename, "destination file name for resolved env vars")
+	o.Filename = o.cmd.StringOpt("f filename", usi.ConfigFilename, "destination file name for resolved env vars")
 	Reporter.UsedOption("filename", o.Filename)
 	return o.Filename
 }
