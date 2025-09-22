@@ -7,8 +7,8 @@ import (
 	"usi/pkg/registry"
 	"usi/pkg/type/deployment"
 
-	"platform-go-common/pkg/errors"
 	cli "github.com/jawher/mow.cli"
+	"platform-go-common/pkg/errors"
 
 	"usi/pkg/core"
 )
