@@ -205,3 +205,5 @@ func setRancherContext(environment, command string, envK8s *registry.Environment
 		)
 	}
 }
+
+//test
